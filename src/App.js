@@ -9,53 +9,33 @@ function App() {
       </header>
       <main className="App-main">
         <div className="buttons">
-          <div className="button-card">
-            <a
-              href="https://the-jar-team.github.io/focus-flow-client/#/?isGuest=true"
-              className="App-button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div>
-                <div>Enter Site</div>
-                <div className="badge">Client</div>
-              </div>
-              <span className="cta">Open</span>
-            </a>
-          </div>
+          <a
+            href="https://the-jar-team.github.io/focus-flow-client/#/?isGuest=true"
+            className="BigButton"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Enter Site
+          </a>
 
-          <div className="button-card">
-            <a
-              href="https://the-jar-team.github.io/focus-flow-client/#/"
-              className="App-button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div>
-                <div>Site Register/Login</div>
-                <div className="badge">Admin</div>
-              </div>
-              <span className="cta">Open</span>
-            </a>
-          </div>
+          <a
+            href="https://the-jar-team.github.io/focus-flow-client/#/"
+            className="BigButton"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Site Register/Login
+          </a>
 
-          <div className="button-card">
-            <a
-              href="https://the-jar-team.github.io/Engagement-Monitoring/"
-              className="App-button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div>
-                <div>Engagement Model Demo View</div>
-                <div className="badge">Demo</div>
-              </div>
-              <span className="cta">Open</span>
-            </a>
-          </div>
+          <a
+            href="https://the-jar-team.github.io/Engagement-Monitoring/"
+            className="BigButton"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Engagement Model Demo View
+          </a>
         </div>
-
-        <div className="hint">Opens in a new tab</div>
       </main>
     </div>
   );
